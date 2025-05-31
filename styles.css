@@ -1,18 +1,41 @@
+/* Reset default spacing and set background */
 body {
-  background-color: #1e1e2f;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(135deg, #1e1e2f, #2a2b3d);
   color: #cdd6f4;
-  font-family: Arial, sans-serif;
-  text-align: center;
-  padding-top: 100px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
 }
 
+/* Style the main heading */
 h1 {
   color: #89b4fa;
-  font-size: 3em;
+  font-size: 4em;
+  animation: fadeIn 2s ease-in-out;
+  text-shadow: 0 0 10px #89b4fa, 0 0 20px #89b4fa;
 }
 
+/* Style the paragraph */
 p {
-  font-size: 1.2em;
+  font-size: 1.5em;
   color: #a6adc8;
+  margin-top: 10px;
+  animation: slideIn 2s ease-out;
 }
 
+/* Add smooth animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-30px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes slideIn {
+  from { opacity: 0; transform: translateY(30px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
