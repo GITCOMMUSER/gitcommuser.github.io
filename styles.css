@@ -2,8 +2,8 @@
 body {
   margin: 0;
   padding: 0;
-  background: linear-gradient(135deg, #282828, #282828);
-  color: #cdd6f4;
+  background: linear-gradient(135deg, #32302F, #32302F);
+  color: #FBF1C7;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   display: flex;
   flex-direction: column;
