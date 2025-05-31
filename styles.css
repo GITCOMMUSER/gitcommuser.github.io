@@ -15,10 +15,10 @@ body {
 
 /* Style the main heading */
 h1 {
-  color: #89b4fa;
+  color: #FBF1C7;
   font-size: 4em;
   animation: fadeIn 2s ease-in-out;
-  text-shadow: 0 0 10px #89b4fa, 0 0 20px #89b4fa;
+  text-shadow: 0 0 10px #D5C4A1, 0 0 20px #D5C4A1;
 }
 
 /* Style the paragraph */
