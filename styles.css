@@ -27,6 +27,8 @@ p {
   color: #A89984;
   margin-top: 10px;
   align-items: center;
+  max-width: 80%;
+  padding: 10px;
   display: flex;
   animation: slideIn 4s ease-out;
 }
