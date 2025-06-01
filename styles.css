@@ -33,6 +33,17 @@ p {
   animation: slideIn 4s ease-out;
 }
 
+
+footer {
+  margin-top: auto;
+  padding: 20px;
+  background-color: #1D2021;
+  text-align: center;
+  color: #A89984;
+  font-size: 0.9em;
+}
+
+
 /* Add smooth animations */
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(-30px); }
