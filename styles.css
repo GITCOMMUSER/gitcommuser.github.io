@@ -36,14 +36,16 @@ p {
 
 footer {
   margin-top: auto;
-  padding: 20px;
+  padding: 20px 0;
   background-color: #1D2021;
   text-align: center;
   color: #A89984;
   font-size: 0.9em;
   margin-top: auto;
-  padding: 15px;
+  position: absolute;
   font-size: 0.9em;
+  bottom: 0;
+  left: 0;
   border-top: 1px solid #504945;
 }
 
